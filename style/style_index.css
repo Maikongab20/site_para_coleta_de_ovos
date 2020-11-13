@@ -15,8 +15,10 @@ body{
 
 /* container de login*/
 
-#login_container{
+.login_container{
 
+    display: flex;
+    flex-direction: column;
     width: 500px;
     margin-left: auto;
     margin-right: auto;
@@ -24,6 +26,7 @@ body{
     margin-top: 20vh;
     border-radius: 10px;
     text-align: center;
+    
 }
 img{
     background-size: cover;
@@ -41,6 +44,7 @@ label, input{
     display: block;
     width: 100%;
     
+    
 }
 
 label{
@@ -48,6 +52,7 @@ label{
     font-size: bold;
     font-size: .8rem;
     text-align: left;
+    
 }
 
 input{

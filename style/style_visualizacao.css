@@ -1,12 +1,12 @@
-*{
+html,body{
     margin: 0;
-    padding-left: 0;
+    padding: 0;
     box-sizing: border-box;
     border: none;
 }
 
 /*primeiro container*/
-#container_cabesario{
+.container{
     
     background-color:#04D361;
     padding: 50px 30px;
@@ -15,6 +15,8 @@
     font-size: large;
 
 }
+
+
 
 input{
     
@@ -32,6 +34,7 @@ input[type = "date"] {
 
 #button{
     border-radius: 20px 20px 20px 20px;
+    border: none;
 }
 
 #button:hover{
