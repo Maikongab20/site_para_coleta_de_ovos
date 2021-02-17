@@ -5,9 +5,6 @@
     box-sizing: border-box;
     border: none;
 }
-a{
-    font-size: .8rem;
-}
 
 body{
     background: rgba(4, 211, 97, 0.9);
@@ -44,14 +41,14 @@ label{
     width: 100%;
     font-size: 0.9rem;
     font-size: bold;
-    font-size: 0.8rem;
+    font-size: 1.1rem;
     
 }
 
 
 
 input{
-        display: inline-block;
+    display: inline-block;
     height: 40px;
     background-color: #FFFFFF;
     
