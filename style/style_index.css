@@ -37,12 +37,28 @@ form{
 }
 
 label{
+    
+    
+}
+.logar{
     display: block;
-    width: 100%;
-    font-size: 0.9rem;
+    position: relative;
+    position: absolute;
+    top: 295px;
+    left: 100px;
     font-size: bold;
     font-size: 1.1rem;
+}
+
+.senha{
+    display: block;
+    position: relative;
+    position: absolute;
+    top: 336px;
+    left:90px;
     
+    font-size: bold;
+    font-size: 1.1rem;
 }
 
 
@@ -63,7 +79,7 @@ input{
     border-radius: 20px 20px 20px 20px;
 }
 
-input[type = "submit"]{
+.enviar{
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
