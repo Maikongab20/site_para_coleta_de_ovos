@@ -26,6 +26,7 @@ body{
 }
 img{
     background-size: cover;
+    margin-bottom: 20px;
 }
 
 /* formulario de login*/
@@ -44,7 +45,7 @@ label{
     display: block;
     position: relative;
     position: absolute;
-    top: 295px;
+    top: 316px;
     left: 100px;
     font-size: bold;
     font-size: 1.1rem;
@@ -54,7 +55,7 @@ label{
     display: block;
     position: relative;
     position: absolute;
-    top: 336px;
+    top: 357px;
     left:90px;
     
     font-size: bold;
@@ -67,16 +68,17 @@ input{
     display: inline-block;
     height: 40px;
     background-color: #FFFFFF;
-    
+    margin: px;
     
 
 }
 #login{
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px 20px 0px 0px;
 }
 
 #senha{
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 0px 0px 20px 20px;
+    border-radius: none;
 }
 
 .enviar{
