@@ -42,16 +42,19 @@ label{
     
 }
 .logar{
+    
+    font-size: bold;
+    font-size: 1.1rem;
+}
+#posisao{
     display: block;
     position: relative;
     position: absolute;
     top: 316px;
     left: 100px;
-    font-size: bold;
-    font-size: 1.1rem;
+    width: 100%;
 }
-
-.senha{
+senha{
     display: block;
     position: relative;
     position: absolute;
@@ -65,7 +68,6 @@ label{
 
 
 input{
-    display: inline-block;
     height: 40px;
     background-color: #FFFFFF;
     margin: px;
